@@ -34,7 +34,8 @@ public class Circle implements Figure{
     @Override
     public int hashCode() {
         return 0;
-    }
+    } //no ciekawe według czego ma to wstawiać do tej hash mapy.
+                                        //na podstawie układu planet, skoro każdy hashCode to 0?
 
     @Override
     public int compareTo(Figure f) {
