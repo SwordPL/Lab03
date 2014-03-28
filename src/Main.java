@@ -26,7 +26,7 @@ public class Main {
         CollectionControl.listWithForEach(maker.getSet());
     */
 
-        maker.makeArrayList();
+        maker.makeArrayList(); //I want to check how does it work exactly
         System.out.println(RichClass.doubleArea(maker.getArrayList()));
 
     }
