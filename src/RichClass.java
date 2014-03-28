@@ -18,7 +18,8 @@ public class RichClass {
         return map(myCollection, new Function <Figure, Double>() {
             @Override
             public Double apply(Figure element) {
-                return (Double) element.getArea()*2;
+                double doubleArea = element.getArea()*2;
+                return doubleArea;
             }
         });
     }
