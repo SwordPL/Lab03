@@ -11,10 +11,6 @@ public class Triangle implements Figure {
         return col;
     }
 
-    /**
-     * I insert some comments for you to refuse
-     * @return area blabla.
-     */
     public double getArea() {
         return (double) 0.5*length*length;
     }
