@@ -27,9 +27,7 @@ public class Main {
     */
 
         maker.makeArrayList();
-        RichClass rich = new RichClass();
-        Map mapped = rich.doubleArea(maker.getArrayList());
-        System.out.println(mapped);
+        System.out.println(RichClass.doubleArea(maker.getArrayList()));
 
     }
 
